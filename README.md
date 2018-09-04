@@ -21,7 +21,7 @@ The following example shows how to use the AmRoMessageBox class as static:
 AmRoMessageBox.ShowDialog("Your Message ... ");
 ```
 #### Non-static method
-In this way, you can create an instance of the AmRoMessageBox class and apply your own properties to it.\
+In this way, you can create an instance of the AmRoMessageBox class and apply your own properties to it.
 
 #### Example
 The following example shows how to use the AmRoMessageBox class as non-static:
