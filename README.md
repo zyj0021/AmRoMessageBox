@@ -78,3 +78,15 @@ In the following table, you can see the AmRoMessageBox class properties:
 | ButtonsText | AmRoMessageBoxButtonsText | Specifies the MessageBox buttons text |
 | ParentWindow | Window | Specifies the owner window |
 | ShowMessageWithEffect | bool | Specifies whether MessageBox has an window effect when displaying or not |
+
+## Screenshots
+![AmRoMessageBox Screenshot - Not Found](Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot1.png)
+![AmRoMessageBox Screenshot - Not Found](Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot2.png)
+![AmRoMessageBox Screenshot - Not Found](Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot3.png)
+![AmRoMessageBox Screenshot - Not Found](Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot4.png)
+
+## Demo
+[Download AmRoMessageBox Demo](https://www.dropbox.com/s/no3yq7c4v9uksga/AmRoMessageBoxDemo.rar?dl=1)
+
+## Persian Reference
+[آموزش نصب و استفاده از کامپوننت AmRoMessageBox](https://sourcesara.com)
