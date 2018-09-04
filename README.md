@@ -1,4 +1,4 @@
-# AmRoMessageBox
+# AmRoMessageBox Component For WPF
 The AmRoMessageBox is similar to the default MessageBox component, except that new features have been added. This component is also compatible with RTL languages and can be used to display RTL languages messages as well. The framework version of this component is 4.5 and is designed with Material Design method.
 
 ## Installation Guide
