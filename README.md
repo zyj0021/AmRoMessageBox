@@ -86,5 +86,5 @@ In the following table, you can see the AmRoMessageBox class properties:
 ![AmRoMessageBox Screenshot - Not Found](Screenshots/EN/AmRoMessageBoxDemo_EN_Screenshot4.png)
 
 ## Demo
-[Download AmRoMessageBox English Demo](Demo/AmRoMessageBoxDemo_EN.rar) |
-[Download AmRoMessageBox Persian Demo](Demo/AmRoMessageBoxDemo_FA.rar)
+[Download AmRoMessageBox English Demo](https://raw.githubusercontent.com/AmRo045/AmRoMessageBox/master/Demo/AmRoMessageBoxDemo_EN.rar) |
+[Download AmRoMessageBox Persian Demo](https://raw.githubusercontent.com/AmRo045/AmRoMessageBox/master/Demo/AmRoMessageBoxDemo_FA.rar)
