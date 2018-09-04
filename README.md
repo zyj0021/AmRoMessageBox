@@ -88,5 +88,3 @@ In the following table, you can see the AmRoMessageBox class properties:
 ## Demo
 [Download AmRoMessageBox Demo](https://www.dropbox.com/s/no3yq7c4v9uksga/AmRoMessageBoxDemo.rar?dl=1)
 
-## Persian Reference
-[آموزش نصب و استفاده از کامپوننت AmRoMessageBox](https://sourcesara.com)
