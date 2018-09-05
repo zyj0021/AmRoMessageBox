@@ -24,7 +24,7 @@ You can use the AmRoMessageBox component in two following method:
 *	Non-Static
 
 #### Static Method
-In this Method, as in the normal MessageBox, you can access the **ShowDialog()** method by writing the name of the class and displaying your messages using it. The static method has some limitations compared to the non-static method. There is no way to change the button text, change colors, change the font size, and set the effect for the MessageBox.
+In this Method, as in the normal MessageBox, you can access the **ShowDialog()** method by writing the name of the class and displaying your messages using it. The static method has some limitations compared to the non-static method. There is no way to change the button text, colors, font size, and set the effect for the MessageBox.
 
 #### Example
 The following example shows how to use the AmRoMessageBox class as static:
