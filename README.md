@@ -1,6 +1,17 @@
 # AmRoMessageBox Component For WPF
 The AmRoMessageBox is similar to the default MessageBox component, except that new features have been added. This component is also compatible with RTL languages and can be used to display RTL languages messages as well. The framework version of this component is 4.5 and is designed with Material Design method.
 
+## AmRoMessageBox features
+*	Includes four primary buttons (Yes, No, Ok and Cancel)
+*	Ability to change the font size of the title and message text
+*	Ability to change the color of different parts (such as background, text message, icons and buttons).
+*	Ability to set effects for when the MessageBox is displayed
+*	Ability to set custom text for buttons
+*	Ability to set icons for MessageBox
+*	Compatible with RTL and LTR languages
+*	Beautiful and user-friendly appearance
+
+
 ## Installation Guide
 To use this component, you must first add dlls to your project Reference section, and then you can use the AmRoMessageBox class in the AmRoMessageDialog namespace. To install this component via NuGet Package Manager, you can use the following command:\
 **`Install-Package AmRoMessageBox`**\
