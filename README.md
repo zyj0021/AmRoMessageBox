@@ -17,8 +17,8 @@ To use this component, you must first add dlls to your project Reference section
 ```
 Install-Package AmRoMessageBox
 ```
-Or download it from the link below and add it manually to the project Reference section:\
-[Download From NuGet](https://www.nuget.org/packages/AmRoMessageBox/)
+Or download it from the link below and add it manually to the project Reference section:
+<div><a href="https://www.nuget.org/packages/AmRoMessageBox">Download AmRoMessageBox From NuGet</a></div>
 
 ## Usage Guide
 You can use the AmRoMessageBox component in two following method:
