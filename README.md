@@ -13,7 +13,7 @@ The AmRoMessageBox is similar to the default MessageBox component, except that n
 
 
 ## Installation Guide
-To use this component, you must first add dlls to your project Reference section, and then you can use the AmRoMessageBox class in the AmRoMessageDialog namespace. To install this component via NuGet Package Manager, you can use the following command:\
+To use this component, you must first add dlls to your project Reference section, and then you can use the AmRoMessageBox class in the AmRoMessageDialog namespace. To install this component via NuGet Package Manager, you can use the following command:
 ```
 Install-Package AmRoMessageBox
 ```
