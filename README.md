@@ -14,7 +14,9 @@ The AmRoMessageBox is similar to the default MessageBox component, except that n
 
 ## Installation Guide
 To use this component, you must first add dlls to your project Reference section, and then you can use the AmRoMessageBox class in the AmRoMessageDialog namespace. To install this component via NuGet Package Manager, you can use the following command:\
-**`Install-Package AmRoMessageBox`**\
+```
+Install-Package AmRoMessageBox
+```
 Or download it from the link below and add it manually to the project Reference section:\
 [Download From NuGet](https://www.nuget.org/packages/AmRoMessageBox/)
 
@@ -28,7 +30,7 @@ In this Method, as in the normal MessageBox, you can access the **ShowDialog()**
 
 #### Example
 The following example shows how to use the AmRoMessageBox class as static:
-```
+```C#
 AmRoMessageBox.ShowDialog("Your Message ... ");
 ```
 #### Non-static method
@@ -36,7 +38,7 @@ In this way, you can create an instance of the AmRoMessageBox class and apply yo
 
 #### Example
 The following example shows how to use the AmRoMessageBox class as non-static:
-```
+```C#
 var messageBox = new AmRoMessageBox
 {
     Background = "#333333",
