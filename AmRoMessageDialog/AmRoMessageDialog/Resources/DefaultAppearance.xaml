@@ -23,5 +23,18 @@
         <Setter Property="Padding" Value="20 5"/>
         <Setter Property="Margin" Value="5 0"/>
     </Style>
-
+    
+    <Style TargetType="{x:Type Grid}">
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="Loaded">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation Storyboard.TargetProperty="Opacity" 
+                                         From="0" To="1" Duration="0:0:0:0.15" />
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    
 </ResourceDictionary>
