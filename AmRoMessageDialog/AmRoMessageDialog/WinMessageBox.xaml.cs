@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows;
-using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Media;
 using MaterialDesignThemes.Wpf;
@@ -140,8 +139,8 @@ namespace AmRoMessageDialog
         {
             if (ParentWindow == null 
                 || !ShowMessageWithEffect 
-                || ParentWindow.ActualWidth <= CardMain.ActualWidth + 100 
-                || ParentWindow.ActualHeight <= CardMain.ActualHeight + 100)
+                || ParentWindow.ActualWidth <= CardMain.ActualWidth + 200 
+                || ParentWindow.ActualHeight <= CardMain.ActualHeight + 200)
             {
                 WindowStartupLocation = WindowStartupLocation.CenterScreen;
                 return;
@@ -178,7 +177,6 @@ namespace AmRoMessageDialog
             {
                 RectWindowEffect.Width = effectArea.ActualWidth;
                 RectWindowEffect.Height = effectArea.ActualHeight;
-                RectWindowEffect.Margin = effectArea.Margin;
             }
         }
 
@@ -189,8 +187,14 @@ namespace AmRoMessageDialog
                 RowCaption.Height = new GridLength(0);
                 RowMessage.Height = new GridLength(3, GridUnitType.Star);
                 TxtMessage.FontSize = LblCaption.FontSize;
+                RectWindowEffect.MinHeight = 120;
+                CardMain.MinHeight = 120;
             }
- 
+            else
+            {
+                RectWindowEffect.MinHeight = 140;
+                CardMain.MinHeight = 140;
+            }
             LblCaption.Content = Caption;
             TxtMessage.Text = Message;
         }

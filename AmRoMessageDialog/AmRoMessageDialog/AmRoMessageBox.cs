@@ -8,6 +8,12 @@ namespace AmRoMessageDialog
 
         #region Properties
 
+        #region Static Properties
+
+        public static Window Owner { get; set; }
+
+        #endregion
+
         public string Background { internal get; set; }
         public string TextColor { internal get; set; }
         public string IconColor { internal get; set; }
@@ -94,7 +100,7 @@ namespace AmRoMessageDialog
         /// Convert hexadecimal color to SolidColorBrush
         /// </summary>
         /// <param name="hexColor">Hexadecimal color</param>
-        /// <returns></returns>
+        /// <returns>SolidColorBrush</returns>
         private static SolidColorBrush GetSolidBrush(string hexColor)
         {
             if (string.IsNullOrEmpty(hexColor))
@@ -121,7 +127,7 @@ namespace AmRoMessageDialog
         /// <returns>AmRoMessageBoxResult</returns>
         public static AmRoMessageBoxResult ShowDialog(string message, bool reverseContentDirection = false)
         {
-            var messageWindow = new WinMessageBox
+            var messageWindow = new WinMessageBox(Owner ?? Owner)
             {
                 Message = message,
                 ReverseContentDirection = reverseContentDirection
@@ -140,7 +146,7 @@ namespace AmRoMessageDialog
         public static AmRoMessageBoxResult ShowDialog(string message, string caption,
             bool reverseContentDirection = false)
         {
-            var messageWindow = new WinMessageBox
+            var messageWindow = new WinMessageBox(Owner ?? Owner)
             {
                 Message = message,
                 Caption = caption,
@@ -161,7 +167,7 @@ namespace AmRoMessageDialog
         public static AmRoMessageBoxResult ShowDialog(string message, string caption,
             AmRoMessageBoxButton messageBoxButton, bool reverseContentDirection = false)
         {
-            var messageWindow = new WinMessageBox
+            var messageWindow = new WinMessageBox(Owner ?? Owner)
             {
                 Message = message,
                 Caption = caption,
@@ -185,7 +191,7 @@ namespace AmRoMessageDialog
             AmRoMessageBoxButton messageBoxButton, AmRoMessageBoxIcon messageBoxIcon,
             bool reverseContentDirection = false)
         {
-            var messageWindow = new WinMessageBox
+            var messageWindow = new WinMessageBox(Owner ?? Owner)
             {
                 Message = message,
                 Caption = caption,
@@ -211,7 +217,7 @@ namespace AmRoMessageDialog
             AmRoMessageBoxButton messageBoxButton, AmRoMessageBoxIcon messageBoxIcon, FlowDirection dircetion,
             bool reverseContentDirection = false)
         {
-            var messageWindow = new WinMessageBox
+            var messageWindow = new WinMessageBox(Owner ?? Owner)
             {
                 Message = message,
                 Caption = caption,

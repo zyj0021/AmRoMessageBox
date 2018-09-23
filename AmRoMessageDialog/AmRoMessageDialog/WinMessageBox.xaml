@@ -36,7 +36,7 @@
         <Rectangle Name="RectWindowEffect" 
                    Fill="{DynamicResource BaseEffectColor}" 
                    Opacity="{DynamicResource BaseEffectOpacity}" 
-                   MinHeight="160"
+                   MinHeight="120"
                    MinWidth="350"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
@@ -48,7 +48,7 @@
         <md:Card Name="CardMain" 
                  Background="{DynamicResource BaseBackground}"
                  Foreground="{DynamicResource BaseForegroundColor}"
-                 MinHeight="160"
+                 MinHeight="120"
                  MinWidth="350"
                  FlowDirection="RightToLeft"
                  VerticalAlignment="Center"
@@ -60,7 +60,7 @@
                     <!--Caption Row-->
                     <RowDefinition Height="*" Name="RowCaption"/>
                     <!--Message Row-->
-                    <RowDefinition Height="1.8*" Name="RowMessage"/>
+                    <RowDefinition Height="Auto" Name="RowMessage"/>
                     <!--Buttons Row-->
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
@@ -88,13 +88,12 @@
                 </DockPanel>
 
                 <!--Message Section-->
-                <StackPanel Name="SpMessage"
+                <DockPanel Name="SpMessage"
                             Grid.Row="1"
                             Grid.Column="0"
                             Margin="15 0"
                             FlowDirection="RightToLeft"
-                            VerticalAlignment="Center"
-                            Orientation="Horizontal">
+                            VerticalAlignment="Center">
                     <!--Message Box Icon-->
                     <md:PackIcon Name="MessageBoxIcon" 
                                  Kind="CheckCircle"
@@ -105,14 +104,15 @@
                                  Visibility="Visible"
                                  Foreground="{DynamicResource BaseIconColor}"/>
                     <!--Message Content-->
-                    <TextBlock Name="TxtMessage" 
+                    <TextBlock Name="TxtMessage"
                                Text="---------------"
                                VerticalAlignment="Center"
                                Margin="0 0 20 0"
+                               TextWrapping="Wrap"
                                Foreground="{DynamicResource BaseForegroundColor}"
                                FontSize="{DynamicResource BaseMessageFontSize}"
-                               FontFamily="{DynamicResource BaseFontFamily}"/>
-                </StackPanel>
+                               FontFamily="{DynamicResource BaseFontFamily}"/>                  
+                </DockPanel>
 
                 <!--Buttons Section-->
                 <StackPanel Name="SpButtons" 
