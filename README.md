@@ -19,7 +19,7 @@ The AmRoMessageBox is similar to the default MessageBox component, except that n
 ## AmRoMessageBox features
 *	Includes four primary buttons (Yes, No, Ok and Cancel)
 *	Ability to change the font size of the title and message text
-*	Ability to change the color of different parts (such as background, text message, icons and buttons).
+*	Ability to change the color of different parts (such as background, message text, icons and buttons).
 *	Ability to set effects for when the MessageBox is displayed
 *	Ability to set custom text for buttons
 *	Ability to set icons for MessageBox
